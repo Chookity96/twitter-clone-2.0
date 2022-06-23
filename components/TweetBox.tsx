@@ -87,7 +87,7 @@ function TweetBox( {setTweets}: Props ) {
 
                     {imageURL && (
                         <form className='mt-5 flex rounded-lg bg-twitter/80 py-2 px-4'>
-                            <input className='flex-1 bg-transparent p-2 text-white placeholder:text-white' type="text" placeholder="Enter image URL..." ref={imageInputRef}/>
+                            <input className='flex-1 bg-transparent p-2 text-white placeholder:text-white outline-none' type="text" placeholder="Enter image URL..." ref={imageInputRef}/>
                             <button onClick={addImageToTweet} className='text-white font-bold'>Add Image</button>
                         </form>
 
