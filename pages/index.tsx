@@ -19,7 +19,7 @@ const Home = ({ tweets }: Props) => {
     <div className="lg:max-w-6xl mx-auto max-h-screen overflow-hidden">
       <Head>
         <title>Twitter 2.0</title>
-        <link rel="icon" href="https://links.papareact.com/drq" />
+        <link rel="icon" href="/twitter.ico" />
       </Head>
       <Toaster />
 

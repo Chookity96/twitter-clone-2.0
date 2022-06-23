@@ -18,15 +18,15 @@ function Sidebar() {
 
     return (
         <div className='flex flex-col col-span-2 items-center px-4 md:items-start'>
-            <img src="/vercel.svg" className='h-10 w-10 m-5' alt="" />
-            <SidebarRow onClick={session ? signOut: signIn} title="Home" Icon={HomeIcon}/>
-            <SidebarRow onClick={session ? signOut: signIn} title="Explore" Icon={HashtagIcon} />
-            <SidebarRow onClick={session ? signOut: signIn} title="Notifications" Icon={BellIcon} />
-            <SidebarRow onClick={session ? signOut: signIn} title="Messages" Icon={MailIcon} />
-            <SidebarRow onClick={session ? signOut: signIn} title="Bookmarks" Icon={BookmarkIcon} />
-            <SidebarRow onClick={session ? signOut: signIn} title="Lists" Icon={CollectionIcon} />
+            <img src="https://ra.ac.ae/wp-content/uploads/2020/01/logo-twitter-icon-symbol-0.png" className='h-10 w-10 m-3' alt="" />
+            <SidebarRow onClick={() => {}} title="Home" Icon={HomeIcon}/>
+            <SidebarRow onClick={() => {}} title="Explore" Icon={HashtagIcon} />
+            <SidebarRow onClick={() => {}} title="Notifications" Icon={BellIcon} />
+            <SidebarRow onClick={() => {}} title="Messages" Icon={MailIcon} />
+            <SidebarRow onClick={() => {}} title="Bookmarks" Icon={BookmarkIcon} />
+            <SidebarRow onClick={() => {}} title="Lists" Icon={CollectionIcon} />
             <SidebarRow onClick={session ? signOut: signIn}  title={session ? 'Sign out': 'Sign In'} Icon={UserIcon} />
-            <SidebarRow onClick={session ? signOut: signIn} title="More" Icon={DotsCircleHorizontalIcon} />
+            <SidebarRow onClick={() => {}} title="More" Icon={DotsCircleHorizontalIcon} />
         </div>
     )
 }
